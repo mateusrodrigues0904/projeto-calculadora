@@ -10,9 +10,19 @@
   padding: 0px;
   font-family: arial;
 }
+html,
+body {
+  height: 89.8vh;
+  background-image: linear-gradient(to left, #333333, #555555);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 main {
   width: fit-content;
   margin: auto;
+  margin-top: 100px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.589);
+  border-radius: 15px;
 }
 .container {
   display: grid;
